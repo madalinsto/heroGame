@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Heros Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <!-- Heroes Game -->
+            <img src="assets/herosgame.png" alt="">
+        </div>
+        <div class="btns-container">
+            <button class="btn" id="show-heroes-btn">Show Heroes</button>
+            <button class="btn" id="start-fight-btn">Start Fight</button>
+            <a id="reloadBtn" href="index.html">Do you want to try again?</a>
+        </div>
+        <div class="heroes-container" id="heroes-containter">
+            <div class="hero-container">
+                <div class="avatar">
+                    <img src="assets/hero1.png" alt="Billy the kid" class="hero-avatar" width="125" height="250">
+                </div>
+                <span class="hero-name">Billy <br>the kid</span>
+                <div class="hero-details-containter">
+                    <span>50</span>
+                    <span>Cannot Fly</span>
+                    <span>Has Shield</span>
+                </div>
+
+            </div>
+            <div class="hero-container">
+                <div class="avatar">
+                    <img src="assets/hero2.png" alt="Adewale" class="hero-avatar" width="150" height="250">
+                </div>
+                <span class="hero-name">Adewale</span>
+                <div class="hero-details-containter">
+                    <span>40</span>
+                    <span>Can Fly</span>
+                    <span>Hasn`t Shield</span>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="avatar">
+                    <img src="assets/hero3.png" alt="Conan" class="hero-avatar" width="125" height="250">
+                </div>
+                <span class="hero-name">Conan</span>
+                <div class="hero-details-containter">
+                    <span>60</span>
+                    <span>Can Fly</span>
+                    <span>Has Shield</span>
+                </div>
+            </div>
+        </div>
+        <div id="show-winner"></div>
+    </div>
+    <script src="oop-logic.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
